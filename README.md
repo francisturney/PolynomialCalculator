@@ -10,10 +10,10 @@ The top-left box is the command line and the bottom-left box is the output.
 
 Usage
 
-For any file you are given a set of empty polynomials a-z. 
+For any file you are given a set of empty polynomials named a-z. 
 
-In order to set the any of the polynomials use "let f = " and then your polynomial,
-with terms separated by " + " or " - " and individual terms of the form n/dX^np/dp in which
+In order to set the content of any of the polynomials use "let f = " (where f is any polynomial index)
+and then your polynomial; with terms separated by " + " or " - " and individual terms of the form n/dX^np/dp in which
 n is the numerator of your coefficient d is the denominator of your coefficient x is
 the variable and np and dp are the numerator and denominator of your power respectively.
 
@@ -25,6 +25,7 @@ of an operation to a polynomial.
 Ex. "let f = a + b", "let f = f' " in which " ' " is the derivative operator
 
 To plot select the polynomial from the pull down menu above the chart.
+
 
 
 
